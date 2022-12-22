@@ -36,35 +36,6 @@ class PencilSketch:
 
 
 if __name__=="__main__":
-
-    # kernels = {
-    #            "jeff-laurel-sunset.jpg":81,
-    #            "milllie-hardwood.jpg":51,
-    #            "millie-boat.jpg":15,
-    #            "millie-cute-as-a-button.jpg":81,
-    #            "zach-balloons.jpg":25,
-    #            "kristine-amelia-park.jpg": 27,
-    #            "drew-beautiful.jpg": 7
-    #            }
-
-    # for f in os.listdir("img/sample"):
-    #     if ".jpg" in f:
-    #         print(f)
-    #         im_path = os.path.join("img", "sample", f)
-    #         img, sketch = pencil_sketch(im_path, ksize=kernels.get(f))
-            
-    #         # cv2.startWindowThread()
-            
-    #         cv2.imshow(f, sketch)
-    #         im_concat = np.concatenate((img, sketch), axis=1)
-    #         compare = cv2.imshow("Side-by-side", im_concat)
-    #         comparison_file_name = "pencil_compare-" + f
-    #         cv2.imwrite(comparison_file_name, im_concat)
-
-    #         cv2.waitKey(0)
-
-    # # plt.show()
-
     # Getting command-line arguments 
     parser = argparse.ArgumentParser(
                                      prog= 'pencil-sketch',
